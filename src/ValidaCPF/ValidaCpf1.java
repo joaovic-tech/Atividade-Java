@@ -1,11 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties. o CPF é um numero formado por 11 digitos
- * To change this template file, choose Tools | Templates                       e os ultimos dois numeros são chamos de DV
- * and open the template in the editor.                                         e é esse DV que usamos para validar o CPF
- */                                                                        //   e para validar o CPF precissamos calcular esses DV
 package ValidaCPF;
 
-import java.util.Scanner;                                                       // aqui é as importações
+import java.util.Scanner;                                                       
 import java.util.InputMismatchException;
 public class ValidaCpf1 {
 
@@ -78,10 +73,10 @@ public class ValidaCpf1 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {                                    // deixa eu já rodar o programa
+    public static void main(String[] args) {                                    
         
-         Scanner ler = new Scanner(System.in);                                  // e aqui em baixo nós vamos colocar os numeros do
-                                                                                // do cpf 
+         Scanner ler = new Scanner(System.in);                                  
+                                                                               
             String CPF;
 
             System.out.printf("Informe um CPF: ");
